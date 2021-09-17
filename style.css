@@ -1,0 +1,87 @@
+
+body
+{
+    align-content:flex-start;
+    background-image: url('https://buffer.com/library/content/images/library/wp-content/uploads/2016/06/giphy.gif');
+    background-size:cover;
+    
+    
+    
+    height: 1vh;
+    padding:0;
+    margin:0;
+
+}
+img
+{
+    height: 50%;
+    width: 50%;
+    left: 50%;
+    shape-image-threshold: unset;
+    position:static;
+    align-items: center;
+    border-style: outset;
+    align-content: center;
+    animation: flip 4s linear 1s reverse right forwards;
+    shape-outside: image();
+    border-radius: 50%;
+}
+hr
+{
+        size: 10%;
+        color:red ;
+}
+.center {
+    display: block;
+    width: 50%;
+  }
+a:link, a:visited {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color:black;
+  }
+  h1{
+    font-variant: normal;
+    color:rgb(4, 255, 4);
+    font-size: xx-large;
+  }
+  title
+  {
+    font: xx-large;
+    color: red;
+    
+  }
+ .button
+ {
+   text-align: center;
+   background-color: skyblue;
+   margin:2px;
+   padding: 10px;
+ }
+ .hello
+ {
+   border-radius: 2cm;
+   box-decoration-break:clone;
+   border-style:solid;
+   margin-bottom: auto;
+   
+ }
+ .flex-container{
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 0 0 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.flex-container p{
+   padding: 0;
+   margin: 0 0 10px;
+}
