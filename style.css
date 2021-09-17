@@ -1,0 +1,100 @@
+
+body
+{
+    align-content:flex-start;
+    background-image: url('https://buffer.com/library/content/images/library/wp-content/uploads/2016/06/giphy.gif');
+    background-size:1050px;
+    
+    
+    
+    height: 2vh;
+    padding:2p;
+    margin: 1px;;
+
+}
+img
+{
+    height: 50%;
+    width: 50%;
+    left: 50%;
+    shape-image-threshold: unset;
+    position:static;
+    align-items: center;
+    border-style: outset;
+    border-color:black;
+    align-content: center;
+    animation: flip 4s linear 1s reverse right forwards;
+    animation-play-state: running;
+    shape-outside: image();
+    border-radius: 50%;
+}
+hr
+{
+        size: 10%;
+        color:red ;
+}
+.center {
+    display: block;
+    width: 50%;
+  }
+a:link, a:visited {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    text-decoration:blue;
+    display:inline-flex;
+  }
+  
+  a:hover, a:active {
+    background-color:black;
+  }
+  h1{
+    font-variant: normal;
+    color:green;
+    font-size: xx-large;
+  }
+  title
+  {
+    font: xx-large;
+    color: red;
+    
+  }
+ .button
+ {
+   text-align: center;
+   background-color: skyblue;
+   margin: 20px;
+   padding: 20px;
+ }
+ .hello
+ {
+   border-radius: 2cm;
+   box-decoration-break:slice;
+   border-style:outset;
+   margin-bottom: auto;
+   border-color: black;
+
+   
+ }
+ .flex-container{
+  display:block;
+  padding: 0 0 0 10px;
+  bottom: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:content-box;
+
+}
+
+.flex-container p{
+   padding: 0;
+   margin: 0 0 20px;
+}
+.img_text
+{
+  display: inline-flex;
+  flex-direction: column;
+}
+.dp
+{
+  animation-direction: normal;
+}
